@@ -1,7 +1,8 @@
 import './assets/main.css'
 
 import { createApp } from 'vue'
-//從一個單文件組件中導入根組件
+
+//從一個單文件組件中導入根組件(root)
 import App from './App.vue'
 
 const app = createApp({

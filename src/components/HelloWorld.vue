@@ -10,6 +10,7 @@ defineProps({
 
 <template>
   <div class="greetings">
+    <!--You did it!-->
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
