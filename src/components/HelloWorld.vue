@@ -1,3 +1,4 @@
+<!--组合式 API 和 <script setup>，-->
 <script setup>
 defineProps({
   msg: {
