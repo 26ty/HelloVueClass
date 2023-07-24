@@ -23,7 +23,7 @@ import TheWelcome from './components/TheWelcome.vue'
   </main>
 </template>
 
-<!--style-->
+<!--style scoped用於限制樣式範圍於單一檔案中-->
 <style scoped>
 header {
   line-height: 1.5;
