@@ -1,12 +1,28 @@
+<!--组合式 API 和 <script setup>，-->
+<script setup>
+import { createApp } from 'vue';
+defineProps({
+  msg: {
+    type: String,
+    required: true
+  }
+})
+
+// const number = ref(3.14)
+
+</script>
+
 <template>
     <div class="item">
       <div class="details">
         <slot name="a"></slot>
         <br>
-        <slot name="b"></slot>
-        <br>
         <slot></slot>
         <br>
+        <span class="green">
+          {{ msg }}
+        </span>
+        <!-- <p>{{ number }}</p> -->
       </div>
     </div>
   </template>

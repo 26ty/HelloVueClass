@@ -11,7 +11,7 @@ import Test from './Test.vue'
 
 <template>
   <!--Test-->
-  <Test>
+  <!-- <Test>
     <template #a>
       test a slot
     </template>
@@ -21,7 +21,7 @@ import Test from './Test.vue'
     </template>
 
     test ohter slot
-  </Test>
+  </Test> -->
 
   <!--WelcomeItem-->
   <WelcomeItem>
